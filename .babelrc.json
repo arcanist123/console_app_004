@@ -1,0 +1,3 @@
+{
+  "plugins": [["./replace-require-3.js", { "xsPath": "/path/to/project/root" }]]
+}
