@@ -1,6 +1,6 @@
 {
   "name": "console_app_004",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "greet": "node scripts/greet.js",
