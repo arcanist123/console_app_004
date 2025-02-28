@@ -3,8 +3,8 @@
   "version": "1.0.1",
   "main": "index.js",
   "scripts": {
-    "greet": "node scripts/greet.js",
-    "build": "rimraf tgt && tsc && rimraf xsjs && babel tgt -d xsjs",
+    "rename": "node scripts/rename_to_xsjs.js",
+    "build": "rimraf tgt && tsc && rimraf xsjs && babel tgt -d xsjs && npm run rename",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
